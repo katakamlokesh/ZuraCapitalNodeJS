@@ -1,0 +1,70 @@
+
+POST http://localhost:3004/offersdata 
+Content-Type: application/json
+
+[
+    {
+        "title": "Hair Dryer",
+        "brand": "Phillips",
+        "price": 760,
+        "id": 1001,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/appliances-silver-hair-dryer.png",
+        "rating": 3.9
+    },
+    {
+        "title": "Minifigures",
+        "brand": "LEGO",
+        "price": 760,
+        "id": 1002,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/toys-people-toys.png",
+        "rating": 3.9
+    },
+    {
+        "title": "Lightweight Tripod",
+        "brand": "LEGO",
+        "price": 760,
+        "id": 1003,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-short-tri-pod.png",
+        "rating": 3.9
+    }
+]
+
+
+
+###
+GET http://localhost:3004/offers/
+
+
+
+###
+POST http://localhost:3004/productsdata/
+Content-Type: application/json
+
+[
+    {
+        "title": "Collider Black Dial Men's Watch",
+        "brand": "Fossil",
+        "price": 14995,
+        "id": 2,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-simple-belt-watch.png",
+        "rating": 4.3,
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Maritime Men's Watch",
+        "brand": "Titan",
+        "price": 11999,
+        "id": 3,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-tatar-watch.png",
+        "rating": 4.3,
+	    "options": "[S,M,L]"
+    }
+]
+
+
+
+###
+GET http://localhost:3004/products/
+
+###
+DELETE http://localhost:3004/products/
