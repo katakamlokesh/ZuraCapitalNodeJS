@@ -85,7 +85,7 @@ app.post("/productsdata", async (request, response) => {
 
     const values = dataDetails.map(
       (eachDataId) =>
-        `(${eachDataId.id},'${eachDataId.title}','${eachDataId.brand}',${eachDataId.price},'${eachDataId.imageUrl}',${eachDataId.rating},'${eachDataId.options}')`
+        `(${eachDataId.id},"${eachDataId.title}","${eachDataId.brand}",${eachDataId.price},"${eachDataId.imageUrl}",${eachDataId.rating},"${eachDataId.options}")`
     );
 
     const valuesString = values.join(",");
@@ -96,10 +96,7 @@ app.post("/productsdata", async (request, response) => {
     VALUES
        ${valuesString};`;
 
-    console.log(addDataQuery);
-
     const dbResponse = await db.run(addDataQuery);
-    console.log(dbResponse);
     response.send("Uploaded successfully");
   } catch (e) {
     console.log(`DB Error: ${e.message}`);
@@ -120,14 +117,16 @@ const convertProductsDetailsToResponseDetails = (productDetails) => {
 };
 
 //API 4
-app.get("/products", async (request, response) => {
-  const selectQuery = `SELECT * FROM products;`;
+app.get("/products/", async (request, response) => {
+  const { search_q = "" } = request.query;
+
+  let selectQuery = `SELECT * FROM products WHERE title LIKE '%${search_q}%' OR brand LIKE '%${search_q}%';`;
+
   const dataDetails = await db.all(selectQuery);
-  console.log(dataDetails);
   response.send(convertProductsDetailsToResponseDetails(dataDetails));
 });
 
-//API 5
+//API 6
 
 app.delete("/products", async (request, response) => {
   try {

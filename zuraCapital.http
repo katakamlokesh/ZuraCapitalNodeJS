@@ -42,29 +42,162 @@ Content-Type: application/json
 
 [
     {
-        "title": "Collider Black Dial Men's Watch",
+        "title": "Neutra Analog Men's Watch",
         "brand": "Fossil",
-        "price": 14995,
-        "id": 2,
-        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-simple-belt-watch.png",
-        "rating": 4.3,
+        "price": 10995,
+        "id": 4,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-simple-watch.png",
+        "rating": "4.1",
         "options": "[S,M,L]"
     },
     {
-        "title": "Maritime Men's Watch",
-        "brand": "Titan",
-        "price": 11999,
-        "id": 3,
-        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-tatar-watch.png",
-        "rating": 4.3,
-	    "options": "[S,M,L]"
+        "title": "Privateer Quartz Watch",
+        "brand": "Fossil",
+        "price": 8122,
+        "id": 5,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-royal-black-watch.png",
+        "rating": "4.4",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Chronograph black Watch",
+        "brand": "Fossil",
+        "price": 6395,
+        "id": 6,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-royal-watch.png",
+        "rating": "3.8",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Virgin Avocado Oil",
+        "brand": "ProV",
+        "price": 4144,
+        "id": 7,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/grocery-oil.png",
+        "rating": "4.4",
+        "options": "[500ml,750ml,100ml]"
+    },
+    {
+        "title": "Wrap Dress",
+        "brand": "Vero Moda",
+        "price": 3039,
+        "id": 8,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-simple-formal.png",
+        "rating": "3.2",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Warm Up Jacket",
+        "brand": "Monte Carlo",
+        "price": 2796,
+        "id": 9,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-sim-jacket.png",
+        "rating": "4.4",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Slim Fit Blazer",
+        "brand": "LEVIS",
+        "price": 2599,
+        "id": 10,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-purple-jacket.png",
+        "rating": "4.2",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Men's Waistcoat",
+        "brand": "LEVIS",
+        "price": 2500,
+        "id": 11,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-jacket.png",
+        "rating": "4.3",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Zari Design Kurta",
+        "brand": "Libas",
+        "price": 1869,
+        "id": 12,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-punjabi.png",
+        "rating": "4.4",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Analog Men's Watch",
+        "brand": "Fastrack",
+        "price": 1850,
+        "id": 13,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/electronics-casual-watch.png",
+        "rating": "4.2",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Embellished Maxi Dress",
+        "brand": "STREET 9",
+        "price": 1799,
+        "id": 14,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/cloths-blue-fork.png",
+        "rating": "3.2",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Slim Fit Jeans",
+        "brand": "LEVIS",
+        "price": 1469,
+        "id": 15,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-jeans-pants.png",
+        "rating": "3.1",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Animal Printed Shirt",
+        "brand": "Mufti",
+        "price": 1017,
+        "id": 16,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-short-sleeves-shirt.png",
+        "rating": "4",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Knit Cream Sweater",
+        "brand": "MansiCollections",
+        "price": 996,
+        "id": 17,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-stylish-sweater.png",
+        "rating": "3.2",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Miss Chase Bodycon Dress",
+        "brand": "LEVIS",
+        "price": 974,
+        "id": 18,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/clothes-modren-net.png",
+        "rating": "3.8",
+        "options": "[S,M,L]"
+    },
+    {
+        "title": "Honey Teddy Bear",
+        "brand": "Honey",
+        "price": 599,
+        "id": 19,
+        "imageUrl": "https://assets.ccbp.in/frontend/react-js/ecommerce/toys-simple-teddy.png",
+        "rating": "4.3",
+        "options": "[S,M,L]"
     }
 ]
 
 
-
 ###
 GET http://localhost:3004/products/
+###
+GET https://assignment-apis-nodejs.herokuapp.com/products/
+
+###
+GET https://assignment-apis-nodejs.herokuapp.com/products?search_q=wat
+
+###
+DELETE https://assignment-apis-nodejs.herokuapp.com/products/
 
 ###
 DELETE http://localhost:3004/products/
